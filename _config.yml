@@ -1,6 +1,6 @@
-name:          Code Guide by @AlloyTeam
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS, and maintainable JavaScript
-url:           https://github.com/AlloyTeam/CodeGuide
+name:          Code Guide
+description:   基于AlloyTeam/CodeGuide，根据项目实际情况调整的前端代码规范
+url:           https://github.com/js5323/CodeGuide
 
 include:       [".editorconfig", ".jscsrc", ".jshintrc", ".csslintrc", ".scss-lint.yml"]
 

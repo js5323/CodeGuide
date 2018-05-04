@@ -1,11 +1,11 @@
 <div class="heading" id="css">
-    <h2>CSS, SCSS</h2>
+    <h2>CSS, SCSS, LESS</h2>
 </div>
 
 <div class="section" id="css-indentation">
     <div class="col">
         <h3>缩进</h3>
-        <p>使用soft tab（4个空格）。</p>
+        <p>使用soft tab（2个空格）。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/indentation.css %}{% endhighlight %}
@@ -171,29 +171,29 @@
     </div>
 </div>
 
-<div class="section" id="css-scss">
-    <div class="col">
-        <h3>SCSS相关</h3>
-        <p>提交的代码中不要有 <code>@debug</code>；</p>
-        <div>
-            <p>声明顺序：</p>
-            <ul>
-                <li><code>@extend</code></li>
-                <li>不包含 <code>@content</code> 的 <code>@include</code></li>
-                <li>包含 <code>@content</code> 的 <code>@include</code></li>
-                <li>自身属性</li>
-                <li>嵌套规则</li>
-            </ul>
-        </div>
-        <p><code>@import</code> 引入的文件不需要开头的'_'和结尾的'.scss'；</p>
-        <p>嵌套最多不能超过5层；</p>
-        <p><code>@extend</code> 中使用placeholder选择器；</p>
-        <p>去掉不必要的父级引用符号'&'。</p>
-    </div>
-    <div class="col">
-        {% highlight css %}{% include css/scss.css %}{% endhighlight %}
-    </div>
-</div>
+<!--<div class="section" id="css-scss">-->
+    <!--<div class="col">-->
+        <!--<h3>LESS相关</h3>-->
+        <!--<p>提交的代码中不要有 <code>@debug</code>；</p>-->
+        <!--<div>-->
+            <!--<p>声明顺序：</p>-->
+            <!--<ul>-->
+                <!--<li><code>@extend</code></li>-->
+                <!--<li>不包含 <code>@content</code> 的 <code>@include</code></li>-->
+                <!--<li>包含 <code>@content</code> 的 <code>@include</code></li>-->
+                <!--<li>自身属性</li>-->
+                <!--<li>嵌套规则</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--<p><code>@import</code> 引入的文件不需要开头的'_'和结尾的'.less'；</p>-->
+        <!--<p>嵌套最多不能超过5层；</p>-->
+        <!--<p><code>@extend</code> 中使用placeholder选择器；</p>-->
+        <!--<p>去掉不必要的父级引用符号'&'。</p>-->
+    <!--</div>-->
+    <!--<div class="col">-->
+        <!--{% highlight css %}{% include css/scss.css %}{% endhighlight %}-->
+    <!--</div>-->
+<!--</div>-->
 
 <div class="section" id="css-miscellaneous">
     <div class="col">
